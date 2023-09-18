@@ -1,0 +1,334 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease;
+    background-color: #f9f9f9; /* Light gray background color */
+}
+
+/* Navbar styles */
+.navbar {
+    background: linear-gradient(to bottom, #333, #222); /* Gradient background */
+}
+
+.navbar-brand {
+    color: #fff; /* White text color for the brand */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* White text color for links */
+}
+
+/* Dark Mode Toggle styles (Removed the toggle button) */
+
+/* Hero/Banner Section styles */
+.banner {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background-color: #2196F3; /* Gradient background color */
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.banner .btn-primary {
+    background-color: #fff; /* White button background */
+    color: #2196F3; /* Blue button text color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+/* Section title styles */
+.section-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Adjust the color as needed */
+}
+
+/* Style for the entire "Project" section */
+.project-section {
+    background-color: #fff; /* White background color */
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Style for the heading */
+.project-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Adjust the color as needed */
+}
+
+/* Style for the project list container */
+.project-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Style for each project item */
+.project-item {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9; /* Light gray background color */
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the project image */
+.project-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+/* Style for the project title */
+.project-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333; /* Adjust the color as needed */
+}
+
+/* Style for the project description */
+.project-description {
+    font-size: 14px;
+    color: #666; /* Adjust the color as needed */
+}
+
+/* Add spacing between project items */
+.project-item + .project-item {
+    margin-top: 20px;
+}
+
+/* Style for the entire "Contact Me" section */
+.contact-section {
+    background-color: #f9f9f9; /* Light gray background color */
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Style for the heading */
+.contact-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333; /* Adjust the color as needed */
+}
+
+/* Style for the description */
+.contact-description {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Style for the contact information */
+.contact-info {
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+/* Style for individual contact items */
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info ul li {
+    margin-bottom: 10px;
+}
+
+.contact-info ul li strong {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Style for links in the contact information */
+.contact-info ul li a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Style for the contact form */
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Style for form labels */
+.contact-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+/* Style for input fields */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Style for the textarea */
+.contact-form textarea {
+    resize: vertical;
+}
+
+/* Style for the submit button */
+.contact-form button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Hover effect for the submit button */
+.contact-form button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Add spacing between form elements */
+.contact-form > * {
+    margin-bottom: 20px;
+}
+
+/* Style for the entire "Skills" section */
+#skills {
+    background: linear-gradient(to bottom, #f9f9f9, #e0e0e0); /* Gradient background */
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Style for the heading */
+#skills h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for the skill icons */
+.skill-icon {
+    max-width: 100px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    transition: transform 0.2s; /* Add transition for smooth hover effect */
+}
+
+/* Hover effect for skill icons */
+.skill-icon:hover {
+    transform: scale(1.2); /* Increase size on hover */
+}
+
+/* Style for the skill labels */
+#skills p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333; /* Adjust the color as needed */
+}
+
+
+/* Style for the entire footer section */
+.footer-section {
+    background: linear-gradient(to bottom, #333, #222); /* Gradient background */
+    color: #fff;
+    padding: 40px 0;
+}
+
+/* Style for the contact information and follow me sections */
+.footer-section h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style for the social media icons */
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+/* Hover effect for social media icons */
+.social-icons a:hover {
+    color: #007bff;
+}
+/* Style for the hero section */
+.hero-section {
+    background-color: #4e7c82;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+/* Style for the hero content */
+.hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Style for the hero text */
+.hero-text {
+    flex: 1;
+    text-align: left;
+    padding: 20px;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Style for the hero image */
+.hero-image {
+    flex: 1;
+    text-align: right;
+}
+
+.developer-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
